@@ -1,22 +1,22 @@
-# 小红书创作运行版
+# 小红书图文创作运行版
 
-可分享的日常运行Skill：**总控 → 选题研究 → 统一创作方案 → 用户确认 → 视觉与平台文案**。暂不包含发布后复盘。
+用于小红书图文创作的 Skill 工作流，将选题想法、竞品研究和真实素材转成创作方案、视觉设计与平台文案。
+
+**总控 → 选题研究 → 统一创作方案 → 用户确认 → 视觉与平台文案**
 
 ## 包含的部分
 
-- [创作总控](.agents/skills/zhouyi-xhs-content-creation/SKILL.md)
-- [选题研究](.agents/skills/zhouyi-xhs-topic-research/SKILL.md)
-- [创作策划与内容生产](.agents/skills/zhouyi-xhs-content-production/SKILL.md)
-- 必需reference、交接合同、项目配置示例和公开分享链接采集器。
-
-不含完整方法论库、历史十三步、候选/回归材料、独立旧简报入口、商品图流程、账号数据和私人素材。复盘分支及其脚本、模板、观察记录依赖均已移除；核心研究、价值筛选、条件式论证、逐页方案、视觉及正文规则保留。
+- [创作总控](.agents/skills/zhouyi-xhs-content-creation/SKILL.md)：识别当前任务，管理流程与阶段交接。
+- [选题研究](.agents/skills/zhouyi-xhs-topic-research/SKILL.md)：核验竞品与用户需求，形成研究结论和选题交接卡。
+- [创作策划与内容生产](.agents/skills/zhouyi-xhs-content-production/SKILL.md)：筛选用户价值，组织逐页论证，生成视觉设计、做图提示词和平台文案。
+- 配套参考规则、交接协议、项目配置示例与公开分享链接采集工具。
 
 ## 下载与使用
 
 [下载运行版ZIP](https://github.com/chenhe-777/xiaohongshu-creation-runtime/archive/refs/heads/main.zip)
 
 1. 解压，将 `.agents/skills/`、`tools/` 和 `config/` 放到自己的项目根目录。
-2. 查看[项目配置示例](config/project-settings.example.md)，按任务配置自己的竞品来源和素材。本仓库不含原作者的个人库ID或本机绝对路径。
+2. 查看[项目配置示例](config/project-settings.example.md)，按任务配置自己的账号、竞品来源和视觉素材。
 3. 在支持本地Skill的AI环境中调用 `zhouyi-xhs-content-creation`，提供选题或竞品；已有有效研究结论可调用 `zhouyi-xhs-content-production`。
 4. 先审核创作方案，批准后才进入视觉与平台文案；制图、外部写入及发布根据用户授权和可用工具另行执行。
 
@@ -28,6 +28,6 @@
 
 ## 运行环境
 
-Skill是给AI执行的规则，不是独立客户端。需要读取本地文件、保存文件的AI环境；云端资料、图像制作和外部写入使用自己的工具与授权。本包不带凭据、运行环境或真实竞品数据。采集器需要Node.js，可选PowerShell。
+在支持本地 Skill、读取文件和保存文件的 AI 环境中使用。云端资料、图像制作和外部写入使用项目已授权的工具；采集器需要 Node.js，Windows 下也可使用 PowerShell 入口。
 
 默认保留原图文风格，账号、母版、Logo和截图可由项目配置覆盖。材料缺失时说明缺口，不编造样本、界面或结果。

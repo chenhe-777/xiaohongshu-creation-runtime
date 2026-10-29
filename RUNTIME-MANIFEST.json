@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "edition": "public-runtime-without-review",
+  "edition": "creation-runtime",
   "skills": [
     "zhouyi-xhs-content-creation",
     "zhouyi-xhs-topic-research",
@@ -9,8 +9,8 @@
   "files": [
     {
       "path": ".agents/skills/zhouyi-xhs-content-creation/references/contracts/01-路由与状态协议.md",
-      "bytes": 3833,
-      "sha256": "b45e541c9e81dd043f01ce5a82f11d5c025db61554bbdad052e8a1140cf5f7bd"
+      "bytes": 3755,
+      "sha256": "abd0b605084f6040b3932eddb55d6e80263b593bf7fc13974d6cc59c83f9ec0c"
     },
     {
       "path": ".agents/skills/zhouyi-xhs-content-creation/references/contracts/02-标准选题交接卡.md",
@@ -19,13 +19,13 @@
     },
     {
       "path": ".agents/skills/zhouyi-xhs-content-creation/references/contracts/03-子Skill输入输出协议.md",
-      "bytes": 4130,
-      "sha256": "09833a92a777f2c7a570fa6e31c14e00599ae370eda5ffe3e30020fd7ffe49f6"
+      "bytes": 4055,
+      "sha256": "b2b5d5a734f8a218e5a557b8c22f99aa18a069de0738414905f6677172eaea94"
     },
     {
       "path": ".agents/skills/zhouyi-xhs-content-creation/SKILL.md",
-      "bytes": 3835,
-      "sha256": "aec39a7f055341c97800a3786f130eae4334454789e729c2afed4bae674a226f"
+      "bytes": 3766,
+      "sha256": "4cd114243cbff119a7263a8b56b5d6ec340b77f7021d645edcc368df6af76292"
     },
     {
       "path": ".agents/skills/zhouyi-xhs-content-production/references/01-内容分配方案.md",
@@ -39,13 +39,13 @@
     },
     {
       "path": ".agents/skills/zhouyi-xhs-content-production/SKILL.md",
-      "bytes": 5057,
-      "sha256": "ef8ad77cad87f1198b204d8afdc3bb792e3b36b69b9629e0ac9efb64255071a0"
+      "bytes": 4979,
+      "sha256": "7c563a0640ee4ffcbcfb386a5270b85b22a0ebaae8318f8fa630db7734881d70"
     },
     {
       "path": ".agents/skills/zhouyi-xhs-topic-research/references/competitor-library.md",
-      "bytes": 2044,
-      "sha256": "66f248da78f21c91fe95aea5137fb3fe9878717da701af13b08a42f1809d3215"
+      "bytes": 2017,
+      "sha256": "1a147da7634c0611a78e269574363cf5d8ef39668810852c727b6c874570404e"
     },
     {
       "path": ".agents/skills/zhouyi-xhs-topic-research/SKILL.md",
@@ -64,13 +64,13 @@
     },
     {
       "path": "config/project-settings.example.md",
-      "bytes": 1345,
-      "sha256": "a9a82b99ca2e319edc4f0cb04a8220a0fe465502281aae1a104267b98c7be327"
+      "bytes": 1355,
+      "sha256": "227de96ab356663180a41c87bc06f8d601b8ba16eef5bff2ec1e6d894c30c07d"
     },
     {
       "path": "README.md",
-      "bytes": 2238,
-      "sha256": "5cbdb125e1449d9dd3b8063c9b4969023a944e3df207ccbf83abdb311765db94"
+      "bytes": 2144,
+      "sha256": "efb4cc576f2ea9d287cb9580b85acadac3657a954b8cbacce769f2d5f1ab59a1"
     },
     {
       "path": "tools/xhs-public-note-collector/collect-windows.ps1",
