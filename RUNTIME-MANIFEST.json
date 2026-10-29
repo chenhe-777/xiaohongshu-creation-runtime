@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-29",
+  "edition": "public-runtime-without-review",
+  "skills": [
+    "zhouyi-xhs-content-creation",
+    "zhouyi-xhs-topic-research",
+    "zhouyi-xhs-content-production"
+  ],
+  "files": [
+    {
+      "path": ".agents/skills/zhouyi-xhs-content-creation/references/contracts/01-路由与状态协议.md",
+      "bytes": 3833,
+      "sha256": "b45e541c9e81dd043f01ce5a82f11d5c025db61554bbdad052e8a1140cf5f7bd"
+    },
+    {
+      "path": ".agents/skills/zhouyi-xhs-content-creation/references/contracts/02-标准选题交接卡.md",
+      "bytes": 5292,
+      "sha256": "94d23aa757200426527049ea2173e9187e4c32bcc262b23f0147f771676b5187"
+    },
+    {
+      "path": ".agents/skills/zhouyi-xhs-content-creation/references/contracts/03-子Skill输入输出协议.md",
+      "bytes": 4130,
+      "sha256": "09833a92a777f2c7a570fa6e31c14e00599ae370eda5ffe3e30020fd7ffe49f6"
+    },
+    {
+      "path": ".agents/skills/zhouyi-xhs-content-creation/SKILL.md",
+      "bytes": 3835,
+      "sha256": "aec39a7f055341c97800a3786f130eae4334454789e729c2afed4bae674a226f"
+    },
+    {
+      "path": ".agents/skills/zhouyi-xhs-content-production/references/01-内容分配方案.md",
+      "bytes": 8275,
+      "sha256": "3fc594790fd295151135357441480cd712ccc413e6aed7ec025af761e83c719f"
+    },
+    {
+      "path": ".agents/skills/zhouyi-xhs-content-production/references/02-视觉设计与平台发布文案.md",
+      "bytes": 11999,
+      "sha256": "9bae4f99392ba4595f25e86de0c8e0e6ad055d574fd70f7d7ffae0d634ffab49"
+    },
+    {
+      "path": ".agents/skills/zhouyi-xhs-content-production/SKILL.md",
+      "bytes": 5057,
+      "sha256": "ef8ad77cad87f1198b204d8afdc3bb792e3b36b69b9629e0ac9efb64255071a0"
+    },
+    {
+      "path": ".agents/skills/zhouyi-xhs-topic-research/references/competitor-library.md",
+      "bytes": 2044,
+      "sha256": "66f248da78f21c91fe95aea5137fb3fe9878717da701af13b08a42f1809d3215"
+    },
+    {
+      "path": ".agents/skills/zhouyi-xhs-topic-research/SKILL.md",
+      "bytes": 16844,
+      "sha256": "ebc4852fc0e8b3632dd8d5b3f3d32e1b434ed40f55710f7dd604b87b11f2f100"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 103,
+      "sha256": "e65678231263fee8672c31d4fe5bcf2271dd352e52811c2c9c2f2ec7f7f79744"
+    },
+    {
+      "path": "config/project-settings.example.md",
+      "bytes": 1345,
+      "sha256": "a9a82b99ca2e319edc4f0cb04a8220a0fe465502281aae1a104267b98c7be327"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2238,
+      "sha256": "5cbdb125e1449d9dd3b8063c9b4969023a944e3df207ccbf83abdb311765db94"
+    },
+    {
+      "path": "tools/xhs-public-note-collector/collect-windows.ps1",
+      "bytes": 5317,
+      "sha256": "6d38faecb20d8604c1ef96648e2b6e397e6d358bbf8c17b5cd2b0d4fa7a1d245"
+    },
+    {
+      "path": "tools/xhs-public-note-collector/collect.js",
+      "bytes": 22723,
+      "sha256": "b43b93ca0db089522ca8ed870992dcb32dc145c57fba1fd653bd1f9bc7b03746"
+    },
+    {
+      "path": "tools/xhs-public-note-collector/README.md",
+      "bytes": 1124,
+      "sha256": "7e7fe63c0b44b7b1945e114165db409d95159b3a0bfe3a50adba2396e12417c0"
+    }
+  ]
+}

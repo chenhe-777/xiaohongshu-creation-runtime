@@ -1,0 +1,9 @@
+config/project-settings.md
+projects/
+materials/
+evidence/
+.env
+.env.*
+node_modules/
+__pycache__/
+*.pyc
